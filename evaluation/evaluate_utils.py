@@ -1,3 +1,21 @@
+# ----------------------------------------
+# Requirements (Install before use)
+# ----------------------------------------
+# !pip install matplotlib scikit-learn
+# !pip install bert-score
+#
+# Version Info:
+# matplotlib==3.10.0
+# scikit-learn==1.6.1
+# bert-score==0.3.13
+# torch==2.6.0
+# transformers==4.52.2
+# pandas==2.2.2
+# numpy==2.0.2
+# tqdm==4.67.1
+# requests==2.32.3
+# ----------------------------------------
+
 from bert_score import score
 
 def compute_avg_sentence_length(sentences):
