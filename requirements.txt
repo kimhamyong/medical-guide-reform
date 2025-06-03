@@ -1,1 +1,4 @@
-.
+sentence-transformers==4.1.0
+faiss-cpu==1.11.0
+pandas==2.2.3
+numpy==2.2.6
